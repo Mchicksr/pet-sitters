@@ -1,0 +1,103 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// $theme-bg: rgb(235, 18, 18);
+
+body{
+    background-image: url(/Bootstrap-Bp/img/puppy2.png);
+    // background-repeat: no-repeat;
+    width: 100%;
+    // background-size: cover;
+    text-align: center;}
+
+
+.logo{
+    vertical-align: middle;
+    border-style: none;
+    width: 13em;
+}
+
+.nav-item{
+    font-size: 26px;
+}
+// font-Awesome
+i.fab.fa-facebook-square {
+    color: blue;
+}
+a:hover i.fab.fa-facebook-square {
+    color: grey;
+}
+
+i.fab.fa-twitter-square {
+    color:lightblue;
+}
+a:hover i.fab.fa-twitter-square {
+    color:grey;
+}
+
+i.fab.fa-instagram-square {
+    color: ghostwhite;
+}
+a:hover i.fab.fa-instagram-square {
+    color: grey;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    color: #ffffffbf;
+}
+
+
+    .contactB {
+       
+        font-size: 16px;
+        border: 2px solid orange;
+        border-radius: 10px;
+        background: none;
+        padding: 16px 32px;
+        color: white;
+    }
+    a:hover.contactB {
+        background-color: orange;
+        text-decoration: none;
+    }
+    .middle{
+        // display: flex;
+        // justify-content: center;
+        // align-items:center
+        position: relative;
+        top: 20em;
+    }
+    .slg{
+        color:white;
+        padding: 11px;
+    }
+@media only screen and (max-width:400px){
+    *{
+        color: blue;
+    }
+    body{
+        background-image:(url(/Bootstrap-Bp/img/puppy2-mb.png));
+    }
+
+    .container-fluid{
+        display: flex !important;
+    justify-content: flex-end !important;
+    position: relative !important;
+    top: -51px !important;
+    }
+
+    // h1.sloagan, .sloagan.h1,  .sloagan.h1  {
+    //     margin: 12em 0 -70px 0;
+    //     position: relative;
+    //     top: -6em;
+    //     text-align: center;
+    //     color: white;
+    //     font-size: 4em;
+    // }
+
+   
+}
